@@ -11,7 +11,7 @@ const getters = {
 
   // Cross module getters
     getTheGetter(state, getters, rootState, rootGetters) {
-        rootGetters.getTheThing;
+        rootGetters.getTheThing; //does not work
     }
 };
 
