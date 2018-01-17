@@ -1,6 +1,6 @@
 # vue-namespace
 
-> A Vue.js project
+> A Vue.js project for helping beginners understand vuex namespacing.
 
 ## Build Setup
 

@@ -1,8 +1,8 @@
 {
   "name": "vue-namespace",
-  "description": "A Vue.js project",
+  "description": "A Vue.js project for helping beginners understand vuex namespacing.",
   "version": "1.0.0",
-  "author": "Russ Bain <phaltak-2@yahoo.com>",
+  "author": "Russ Bain <russ.bain@live.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
