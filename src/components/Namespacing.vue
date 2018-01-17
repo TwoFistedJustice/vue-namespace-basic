@@ -6,7 +6,8 @@
             <h1>{{GetaProp}}</h1>
             <h1>{{GetAnotherProp}}</h1>
           <hr>
-            <h1>Should not be blank &rarr;{{getTheGetter}}</h1>
+            <h1>This should be repeated below: {{getTheThing}}</h1>
+            <h1>Repeat here &rarr;{{getTheGetter}}</h1>
           <hr>
             <ul>
                 <li><h3>Basic Namespacing - How to do it</h3></li>
@@ -32,6 +33,7 @@
             ...mapGetters({
                 GetaProp: 'someModule/GetaProp',
                 GetAnotherProp: 'anotherModule/GetAnotherProp',
+                getTheThing: 'someModule/getTheThing',
                 getTheGetter: 'anotherModule/getTheGetter'
             }),
         },
