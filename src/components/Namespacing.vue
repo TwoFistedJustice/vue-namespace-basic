@@ -5,7 +5,9 @@
             <button @click="changeaProp">Change</button>
             <h1>{{GetaProp}}</h1>
             <h1>{{GetAnotherProp}}</h1>
+          <hr>
             <h1>Should not be blank &rarr;{{getTheGetter}}</h1>
+          <hr>
             <ul>
                 <li><h3>Basic Namespacing - How to do it</h3></li>
                 <li>in the module default export object add the property 'namespaced: true,'</li>
