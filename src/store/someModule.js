@@ -1,4 +1,5 @@
 
+
 const state = {
     aProp: 'Hello',
 
@@ -36,8 +37,10 @@ const actions = {
         // commit('CHANGE_A_PROP');
         commit('someModule/CHANGE_A_PROP', null, { root: true });
 
+
         // ACTION DISPATCHED HERE
         dispatch('anotherModule/changeAnotherProp', null, { root: true });
+
 
 
 

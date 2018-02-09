@@ -4,6 +4,7 @@ import App from './App.vue';
 import { routes } from './routes.js'
 import { store } from  './store/store.js';
 
+export const gObj_hasRoot = {root: true};
 
 
 Vue.use(VueRouter);
