@@ -13,7 +13,8 @@ const getters = {
     getTheGetter(state, getters, rootState, rootGetters) {
       console.log('attempting get');
         // rootGetters.getTheThing; //does not work
-      rootGetters['someModule/getTheThing']; //still does not work
+      // rootGetters['someModule/getTheThing']; //still does not work - need to RETURN
+      return rootGetters['someModule/getTheThing']; //still does not work
 
     }
 };
